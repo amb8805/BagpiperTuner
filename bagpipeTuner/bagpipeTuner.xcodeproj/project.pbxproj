@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD380F9C1B8ADA4D009CFAFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD380F9B1B8ADA4D009CFAFC /* main.m */; };
+		AD380F9F1B8ADA4D009CFAFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD380F9E1B8ADA4D009CFAFC /* AppDelegate.m */; };
+		AD380FA21B8ADA4D009CFAFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD380FA11B8ADA4D009CFAFC /* ViewController.m */; };
+		AD380FA51B8ADA4D009CFAFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD380FA31B8ADA4D009CFAFC /* Main.storyboard */; };
+		AD380FA71B8ADA4D009CFAFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD380FA61B8ADA4D009CFAFC /* Assets.xcassets */; };
+		AD380FAA1B8ADA4D009CFAFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD380FA81B8ADA4D009CFAFC /* LaunchScreen.storyboard */; };
+		AD380FB51B8ADA4D009CFAFC /* bagpipeTunerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD380FB41B8ADA4D009CFAFC /* bagpipeTunerTests.m */; };
+		AD380FC01B8ADA4D009CFAFC /* bagpipeTunerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD380FBF1B8ADA4D009CFAFC /* bagpipeTunerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD380FB11B8ADA4D009CFAFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD380F8F1B8ADA4D009CFAFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD380F961B8ADA4D009CFAFC;
+			remoteInfo = bagpipeTuner;
+		};
+		AD380FBC1B8ADA4D009CFAFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD380F8F1B8ADA4D009CFAFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD380F961B8ADA4D009CFAFC;
+			remoteInfo = bagpipeTuner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD380F971B8ADA4D009CFAFC /* bagpipeTuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bagpipeTuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD380F9B1B8ADA4D009CFAFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD380F9D1B8ADA4D009CFAFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD380F9E1B8ADA4D009CFAFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD380FA01B8ADA4D009CFAFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD380FA11B8ADA4D009CFAFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD380FA41B8ADA4D009CFAFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD380FA61B8ADA4D009CFAFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD380FA91B8ADA4D009CFAFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD380FAB1B8ADA4D009CFAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD380FB01B8ADA4D009CFAFC /* bagpipeTunerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bagpipeTunerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD380FB41B8ADA4D009CFAFC /* bagpipeTunerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bagpipeTunerTests.m; sourceTree = "<group>"; };
+		AD380FB61B8ADA4D009CFAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD380FBB1B8ADA4D009CFAFC /* bagpipeTunerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bagpipeTunerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD380FBF1B8ADA4D009CFAFC /* bagpipeTunerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bagpipeTunerUITests.m; sourceTree = "<group>"; };
+		AD380FC11B8ADA4D009CFAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD380F941B8ADA4D009CFAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380FAD1B8ADA4D009CFAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380FB81B8ADA4D009CFAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD380F8E1B8ADA4D009CFAFC = {
+			isa = PBXGroup;
+			children = (
+				AD380F991B8ADA4D009CFAFC /* bagpipeTuner */,
+				AD380FB31B8ADA4D009CFAFC /* bagpipeTunerTests */,
+				AD380FBE1B8ADA4D009CFAFC /* bagpipeTunerUITests */,
+				AD380F981B8ADA4D009CFAFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD380F981B8ADA4D009CFAFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD380F971B8ADA4D009CFAFC /* bagpipeTuner.app */,
+				AD380FB01B8ADA4D009CFAFC /* bagpipeTunerTests.xctest */,
+				AD380FBB1B8ADA4D009CFAFC /* bagpipeTunerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD380F991B8ADA4D009CFAFC /* bagpipeTuner */ = {
+			isa = PBXGroup;
+			children = (
+				AD380F9D1B8ADA4D009CFAFC /* AppDelegate.h */,
+				AD380F9E1B8ADA4D009CFAFC /* AppDelegate.m */,
+				AD380FA01B8ADA4D009CFAFC /* ViewController.h */,
+				AD380FA11B8ADA4D009CFAFC /* ViewController.m */,
+				AD380FA31B8ADA4D009CFAFC /* Main.storyboard */,
+				AD380FA61B8ADA4D009CFAFC /* Assets.xcassets */,
+				AD380FA81B8ADA4D009CFAFC /* LaunchScreen.storyboard */,
+				AD380FAB1B8ADA4D009CFAFC /* Info.plist */,
+				AD380F9A1B8ADA4D009CFAFC /* Supporting Files */,
+			);
+			path = bagpipeTuner;
+			sourceTree = "<group>";
+		};
+		AD380F9A1B8ADA4D009CFAFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD380F9B1B8ADA4D009CFAFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD380FB31B8ADA4D009CFAFC /* bagpipeTunerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD380FB41B8ADA4D009CFAFC /* bagpipeTunerTests.m */,
+				AD380FB61B8ADA4D009CFAFC /* Info.plist */,
+			);
+			path = bagpipeTunerTests;
+			sourceTree = "<group>";
+		};
+		AD380FBE1B8ADA4D009CFAFC /* bagpipeTunerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD380FBF1B8ADA4D009CFAFC /* bagpipeTunerUITests.m */,
+				AD380FC11B8ADA4D009CFAFC /* Info.plist */,
+			);
+			path = bagpipeTunerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD380F961B8ADA4D009CFAFC /* bagpipeTuner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD380FC41B8ADA4D009CFAFC /* Build configuration list for PBXNativeTarget "bagpipeTuner" */;
+			buildPhases = (
+				AD380F931B8ADA4D009CFAFC /* Sources */,
+				AD380F941B8ADA4D009CFAFC /* Frameworks */,
+				AD380F951B8ADA4D009CFAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bagpipeTuner;
+			productName = bagpipeTuner;
+			productReference = AD380F971B8ADA4D009CFAFC /* bagpipeTuner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD380FAF1B8ADA4D009CFAFC /* bagpipeTunerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD380FC71B8ADA4D009CFAFC /* Build configuration list for PBXNativeTarget "bagpipeTunerTests" */;
+			buildPhases = (
+				AD380FAC1B8ADA4D009CFAFC /* Sources */,
+				AD380FAD1B8ADA4D009CFAFC /* Frameworks */,
+				AD380FAE1B8ADA4D009CFAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD380FB21B8ADA4D009CFAFC /* PBXTargetDependency */,
+			);
+			name = bagpipeTunerTests;
+			productName = bagpipeTunerTests;
+			productReference = AD380FB01B8ADA4D009CFAFC /* bagpipeTunerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD380FBA1B8ADA4D009CFAFC /* bagpipeTunerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD380FCA1B8ADA4D009CFAFC /* Build configuration list for PBXNativeTarget "bagpipeTunerUITests" */;
+			buildPhases = (
+				AD380FB71B8ADA4D009CFAFC /* Sources */,
+				AD380FB81B8ADA4D009CFAFC /* Frameworks */,
+				AD380FB91B8ADA4D009CFAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD380FBD1B8ADA4D009CFAFC /* PBXTargetDependency */,
+			);
+			name = bagpipeTunerUITests;
+			productName = bagpipeTunerUITests;
+			productReference = AD380FBB1B8ADA4D009CFAFC /* bagpipeTunerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD380F8F1B8ADA4D009CFAFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = 8Beat;
+				TargetAttributes = {
+					AD380F961B8ADA4D009CFAFC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					AD380FAF1B8ADA4D009CFAFC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AD380F961B8ADA4D009CFAFC;
+					};
+					AD380FBA1B8ADA4D009CFAFC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AD380F961B8ADA4D009CFAFC;
+					};
+				};
+			};
+			buildConfigurationList = AD380F921B8ADA4D009CFAFC /* Build configuration list for PBXProject "bagpipeTuner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD380F8E1B8ADA4D009CFAFC;
+			productRefGroup = AD380F981B8ADA4D009CFAFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD380F961B8ADA4D009CFAFC /* bagpipeTuner */,
+				AD380FAF1B8ADA4D009CFAFC /* bagpipeTunerTests */,
+				AD380FBA1B8ADA4D009CFAFC /* bagpipeTunerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD380F951B8ADA4D009CFAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD380FAA1B8ADA4D009CFAFC /* LaunchScreen.storyboard in Resources */,
+				AD380FA71B8ADA4D009CFAFC /* Assets.xcassets in Resources */,
+				AD380FA51B8ADA4D009CFAFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380FAE1B8ADA4D009CFAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380FB91B8ADA4D009CFAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD380F931B8ADA4D009CFAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD380FA21B8ADA4D009CFAFC /* ViewController.m in Sources */,
+				AD380F9F1B8ADA4D009CFAFC /* AppDelegate.m in Sources */,
+				AD380F9C1B8ADA4D009CFAFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380FAC1B8ADA4D009CFAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD380FB51B8ADA4D009CFAFC /* bagpipeTunerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380FB71B8ADA4D009CFAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD380FC01B8ADA4D009CFAFC /* bagpipeTunerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD380FB21B8ADA4D009CFAFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD380F961B8ADA4D009CFAFC /* bagpipeTuner */;
+			targetProxy = AD380FB11B8ADA4D009CFAFC /* PBXContainerItemProxy */;
+		};
+		AD380FBD1B8ADA4D009CFAFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD380F961B8ADA4D009CFAFC /* bagpipeTuner */;
+			targetProxy = AD380FBC1B8ADA4D009CFAFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD380FA31B8ADA4D009CFAFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD380FA41B8ADA4D009CFAFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD380FA81B8ADA4D009CFAFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD380FA91B8ADA4D009CFAFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD380FC21B8ADA4D009CFAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD380FC31B8ADA4D009CFAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD380FC51B8ADA4D009CFAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bagpipeTuner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8Beat.bagpipeTuner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD380FC61B8ADA4D009CFAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bagpipeTuner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8Beat.bagpipeTuner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD380FC81B8ADA4D009CFAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bagpipeTunerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8Beat.bagpipeTunerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bagpipeTuner.app/bagpipeTuner";
+			};
+			name = Debug;
+		};
+		AD380FC91B8ADA4D009CFAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bagpipeTunerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8Beat.bagpipeTunerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bagpipeTuner.app/bagpipeTuner";
+			};
+			name = Release;
+		};
+		AD380FCB1B8ADA4D009CFAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bagpipeTunerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8Beat.bagpipeTunerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bagpipeTuner;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AD380FCC1B8ADA4D009CFAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bagpipeTunerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8Beat.bagpipeTunerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bagpipeTuner;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD380F921B8ADA4D009CFAFC /* Build configuration list for PBXProject "bagpipeTuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD380FC21B8ADA4D009CFAFC /* Debug */,
+				AD380FC31B8ADA4D009CFAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD380FC41B8ADA4D009CFAFC /* Build configuration list for PBXNativeTarget "bagpipeTuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD380FC51B8ADA4D009CFAFC /* Debug */,
+				AD380FC61B8ADA4D009CFAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD380FC71B8ADA4D009CFAFC /* Build configuration list for PBXNativeTarget "bagpipeTunerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD380FC81B8ADA4D009CFAFC /* Debug */,
+				AD380FC91B8ADA4D009CFAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD380FCA1B8ADA4D009CFAFC /* Build configuration list for PBXNativeTarget "bagpipeTunerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD380FCB1B8ADA4D009CFAFC /* Debug */,
+				AD380FCC1B8ADA4D009CFAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD380F8F1B8ADA4D009CFAFC /* Project object */;
+}
